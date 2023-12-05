@@ -11,7 +11,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #b7b7b7;
+    /*background: #300cc2;*/
+    background: rgb(38,40,106);
+    background: linear-gradient(0deg, rgba(38,40,106,1) 0%, rgba(45,155,253,1) 100%); 
 }
 
 
@@ -19,7 +21,7 @@ body{
     position: relative;
     width: 400px;
     height: 105px;   /*105 */
-    background: #fff;
+    background: #F7F7F7;
     padding: 28px 32px;
     overflow: hidden;
     border-radius: 18px;
@@ -37,6 +39,7 @@ body{
 
 .search-box input{
     color: #000000;
+    background-color: #F7F7F7;
     width: 80%;
     font-size: 24px;
     font-weight: 500;
@@ -172,7 +175,7 @@ body{
     opacity: 0;
 }
 
-.fade-in{
+.fadeIn{
     animation: 0.5s fadeIn forwards;
     animation-delay: 0.5;
 }
